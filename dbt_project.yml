@@ -41,3 +41,6 @@ models:
     example:
       +materialized: table
       +schema: example
+    stage:
+      +materialized: view
+      +schema: STG_CSV

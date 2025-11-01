@@ -4,4 +4,4 @@
 
 select 
 *
-from {{source ('RAW_CSV','person')}}
+from {{source ('RAW_CSV','person')}} --source

@@ -1,0 +1,9 @@
+version: 2
+
+sources:
+  - name: RAW_CSV          # Name der Source, hier wie dein Dataset
+    database: burgertastinghh  # BigQuery Projektname
+    schema: RAW_CSV        # Dataset-Name
+    tables:
+      - name: person       # Tabellename
+        description: "Personentabelle mit Bewertenden"

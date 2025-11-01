@@ -37,10 +37,6 @@ clean-targets:         # directories to be removed by `dbt clean`
 
 models:
   burgertasting_dbt:
-    # Applies to all files under models/example/
-    example:
-      +materialized: table
-      +schema: example
     stage:
       +materialized: view
       +schema: STG_CSV

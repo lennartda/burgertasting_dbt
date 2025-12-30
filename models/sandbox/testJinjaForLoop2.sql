@@ -1,4 +1,6 @@
-{{config(enable=false)}}
+{{ config(
+  enabled=false
+) }}
 
 {% set my_fav_num = 26 %}
 

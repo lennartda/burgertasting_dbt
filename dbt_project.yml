@@ -40,3 +40,9 @@ models:
     stage:
       +materialized: view
       +schema: STG_CSV
+    mart:
+      +materialized: table
+      +schema: MART
+    sandbox:
+      +materialized: table
+      +schema: SANDBOX

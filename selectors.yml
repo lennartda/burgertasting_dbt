@@ -1,0 +1,6 @@
+selectors:
+  - name: mart_tables
+    definition:
+      intersection:
+        - path: models/mart
+        - config.materialized: table
